@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>Temperature Converter</title>
+			<link rel="stylesheet" href="style.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<p class="mainHeading">temperature converter.</p>
+		<div class="main">
+			<div class="input">
+				<p class="heading">enter temperature</p>
+				<p class="heading2">Degree:</p>
+				<input type="number" placeholder="0" class="temperature">
+
+				<p class="heading3">your Unit:</p>
+				
+				<select class="currentUnit" >
+					<option value="c"><p>Celsius&#40;&deg;C&#41;</p></option>
+					<option value="f"><p>Fahrenheit&#40;&deg;F&#41;</p></option>
+					<option value="k"><p>Kelvin&#40;K&#41;</p></option>
+				</select>
+				
+				<br>
+				
+				<button class="convertButton" onclick="convertUnit();">Convert <span class="arrow">&rarr;</span></button>
+			
+			</div>
+			<div class="output1">
+				<p class="result1">0</p>
+				<p class="result2">0</p>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

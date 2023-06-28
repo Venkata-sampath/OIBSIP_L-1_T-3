@@ -1,0 +1,83 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    color: green;
+}
+.mainHeading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    text-decoration: underline;
+
+}
+.main{
+    margin-top: 80px;
+    margin-left: 320px;
+    border: 2px solid green;
+    border-radius: 5px;
+    display: flex;
+    width: fit-content;
+}
+.input{
+    padding: 30px;
+}
+.heading{
+    font-size: 27px;
+    font-weight: 500;
+}
+.heading2{
+    font-size: 20px;
+    font-weight: 400;
+}
+.heading3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.temperature{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    
+}
+.currentUnit{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 70px;
+    cursor: pointer;
+}
+.convertButton{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 70px;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 23px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.convertButton:hover{
+    opacity: 100px;
+}
+
+.output1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 100px;
+    text-align: center;
+    width: 300px;
+    color: white;
+    background-color: green;
+}
+
+
+
